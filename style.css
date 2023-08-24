@@ -79,6 +79,7 @@ a:hover{
 .description::after{
   content: "";
   display: table;
+  clear: both;
 }
 
 .foto{
@@ -88,6 +89,8 @@ a:hover{
 
 .writeup h3{
   font-size: 30px;
+  display: inline-block;
+  margin-left: 3rem;
 }
 
 .writeup p{
@@ -96,39 +99,3 @@ a:hover{
   text-align: justify;
 }
 
-.des-form{
-  margin-left: 80px;
-}
-
-form{
-  margin: 30px 100px;
-  display: inline-block;
-  width: 300px;
-}
-
-label{
-  font-weight: bold;
-}
-
-input, textarea{
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  outline: none;
-}
-
-.des-form h3{
-  font-size: 30px;
-  text-align: center;
-}
-
-.submit{
-  margin: 20px 100px;
-  padding: 3px;
-  background-color: rgba(17, 14, 14, 0.7);
-  border: none;
-  border-radius: 3px;
-  color: #fff;
-}
